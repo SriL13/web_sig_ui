@@ -1,0 +1,26 @@
+SIAGA Jambi - SIG Bencana Kota Jambi (landing page tahap 1)
+=============================================================
+
+Halaman ini memakai komponen pihak ketiga berikut. Salin teks lisensi lengkap dari sumber resminya
+sebelum dipublikasikan; berkas ini hanya mencatat atribusi.
+
+1. Mesin halaman 3D (struktur scroll, post-processing, efek kain, interaksi)
+   Diadaptasi dari komponen <KageLandingPage /> milik ThreeUI.
+   Sumber : https://github.com/MengTo/threeui
+   Lisensi: MIT menurut README repositori ("Application code, Community component code, and
+            ThreeUI-authored Community imagery are MIT licensed"). Periksa berkas LICENSE di repositori
+            untuk pernyataan hak cipta resmi dan pastikan komponen Kage termasuk yang dicakup.
+   Perubahan: seluruh aset, tekstur, warna, teks, dan tema diganti; mesin 3D dipertahankan.
+
+2. Three.js r149 (assets/three.min.js)
+   Copyright 2010-2023 Three.js Authors. Lisensi MIT. https://threejs.org
+   Header lisensi di dalam berkas jangan dihapus.
+
+3. Font Onest (assets/fonts/*.woff2)
+   Lisensi SIL Open Font License 1.1. Boleh dipakai dan dibundel, tidak boleh dijual sendiri.
+
+4. Aset gambar (assets/generated, assets/foreground)
+   Dibuat khusus untuk proyek ini lewat skrip SVG (gen_sig.py), tanpa gambar pihak ketiga.
+
+5. Angka dan fakta pada halaman
+   Dikutip dari pemberitaan; tautan sumber ada di footer halaman. Ini bukan data resmi sistem.
